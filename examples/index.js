@@ -21,7 +21,7 @@ parts = re.exec( 'C:\\foo\\bar\\home.html' );
 console.log( parts );
 /*
 	[
-		'\\foo\\bar\\home.html',
+		'C:\\foo\\bar\\home.html',
 		'C:'
 		'\\',
 		'foo\\bar\\',

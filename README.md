@@ -89,7 +89,7 @@ parts = re.exec( 'index.js' );
 parts = re.exec( 'C:\\foo\\bar\\home.html' );
 /*
 	[
-		'\\foo\\bar\\home.html',
+		'C:\\foo\\bar\\home.html',
 		'C:'
 		'\\',
 		'foo\\bar\\',
