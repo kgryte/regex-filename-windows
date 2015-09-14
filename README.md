@@ -28,7 +28,7 @@ var parts = re.exec( 'C:\\foo\\bar\\index.js' );
 	[
 		'C:\\foo\\bar\\index.js',   // input value
 		'C:',                       // device
-		'\\',                       // root
+		'\\',                       // slash
 		'foo\\bar\\',               // dirname
 		'index.js',                 // basename
 		'.js'                       // extname
